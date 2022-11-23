@@ -11,7 +11,7 @@ body {
   display: inline-block;
   margin: 20px;
   padding: 20px;
-  border: 1px solid grey;
+  border: 4px inset grey;
 }
 
 .t-cell {
@@ -23,23 +23,31 @@ body {
 }
 
 .t-cell-0 {
-  background-color: black;
+  background-color: rgb(41, 41, 41);
+  background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+  border: 1px solid black;
 }
 
 .t-cell-1 {
   background-color: #00d;
-  border-bottom: 1px solid #00f;
-  border-right: 1px solid #00f;
-  border-top: 1px solid #00b;
-  border-left: 1px solid #00b;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+  border: 1px solid rgb(1, 1, 87);
 }
 
 .t-cell-2 {
   background-color: green;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+  border: 1px solid rgb(0, 48, 0);
 }
 
 .t-cell-3 {
   background-color: red;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+  border: 1px solid rgb(70, 0, 0);
 }
 
 .t-score-label {
