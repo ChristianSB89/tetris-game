@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tetris-game/static/css/main.dae234d2.css",
-    "main.js": "/tetris-game/static/js/main.344cf599.js",
+    "main.js": "/tetris-game/static/js/main.5f872569.js",
     "index.html": "/tetris-game/index.html",
     "main.dae234d2.css.map": "/tetris-game/static/css/main.dae234d2.css.map",
-    "main.344cf599.js.map": "/tetris-game/static/js/main.344cf599.js.map"
+    "main.5f872569.js.map": "/tetris-game/static/js/main.5f872569.js.map"
   },
   "entrypoints": [
     "static/css/main.dae234d2.css",
-    "static/js/main.344cf599.js"
+    "static/js/main.5f872569.js"
   ]
 }
