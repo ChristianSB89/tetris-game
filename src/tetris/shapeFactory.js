@@ -1,6 +1,7 @@
 const SHAPES = [
   {
     shape: [
+      //square, rotate set to false because it is a square :P
       { x: 0, y: 0 },
       { x: 0, y: 1 },
       { x: 1, y: 0 },
@@ -12,6 +13,7 @@ const SHAPES = [
   },
   {
     shape: [
+      //straight piece
       { x: 0, y: 0 },
       { x: 0, y: 1 },
       { x: 0, y: 2 },
@@ -22,6 +24,7 @@ const SHAPES = [
   },
   {
     shape: [
+      // L-shaped piece
       { x: 0, y: 0 },
       { x: 0, y: 1 },
       { x: 0, y: 2 },
@@ -29,6 +32,17 @@ const SHAPES = [
     ],
     width: 1,
     height: 3,
+  },
+  {
+    shape: [
+      // L-shaped piece, mirrored
+      { x: 0, y: 0 },
+      { x: 1, y: 0 },
+      { x: 2, y: 0 },
+      { x: 2, y: 1 },
+    ],
+    width: 3,
+    height: 1,
   },
 ];
 
