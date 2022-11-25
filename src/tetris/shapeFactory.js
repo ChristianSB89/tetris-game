@@ -1,3 +1,5 @@
+// Array with shapes, hence the name shapeFactory
+
 const SHAPES = [
   {
     shape: [
@@ -44,6 +46,17 @@ const SHAPES = [
     width: 3,
     height: 1,
   },
+  // {
+  //   shape: [
+  //     // T-shaped piece (Needs fixing)
+  //     { x: 0, y: 0 },
+  //     { x: 0, y: 1 },
+  //     { x: 1, y: 2 },
+  //     { x: 0, y: 2 },
+  //   ],
+  //   width: 2,
+  //   height: 3,
+  // },
 ];
 
 export function randomShape() {

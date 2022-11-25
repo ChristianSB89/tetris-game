@@ -20,6 +20,12 @@ const Board = () => {
       {display.map((row, index) => (
         <Row row={row} key={index} />
       ))}
+      <div className="how-to-play">
+        <p>Up arrow: Rotate</p>
+        <p>Down arrow: Move down faster</p>
+        <p>Left arrow: Move left</p>
+        <p>Right arrow: Move right</p>
+      </div>
     </div>
   );
 };

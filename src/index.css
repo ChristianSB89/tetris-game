@@ -9,6 +9,8 @@ body {
 
 .t-board {
   display: inline-block;
+  position: relative;
+  left: 40%;
   margin: 20px;
   padding: 20px;
   border: 4px inset grey;
@@ -65,4 +67,8 @@ body {
 element.style {
   width: 44px;
   left: 0px;
+}
+
+.how-to-play {
+  text-align: center;
 }
